@@ -9,8 +9,8 @@ class Request():
 		self.__port = 8704
 		self.__requests = [
 			#url接口地址 、method请求方式：get, post一律小写、is_test是否需要测、args请求参数 iscypt是否需要加密
-			{"url":"http://10.13.1.3:%s/api/test/test_api1"%self.__port, "method": "get", "is_test": True, "args":{"exp":"哈哈", "exp2": "mm"}, "iscypt": False},
-			{"url":"http://10.13.1.3:%s/api/test/test_api2"%self.__port, "method": "post", "is_test": True, "args":{"car1":"i'm car one", "car2":"i'm car tow"}, "iscypt": False},
+			{"url":"http://此处填写域名或ip:%s/api/test/test_api1"%self.__port, "method": "get", "is_test": True, "args":{"exp":"哈哈", "exp2": "mm"}, "iscypt": False},
+			{"url":"http://此处填写域名或ip:%s/api/test/test_api2"%self.__port, "method": "post", "is_test": True, "args":{"car1":"i'm car one", "car2":"i'm car tow"}, "iscypt": False},
 		]
 		self.__instances = {
 			"test": TestExplainer(),
